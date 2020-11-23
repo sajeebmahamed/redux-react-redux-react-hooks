@@ -1,5 +1,6 @@
 import './App.css';
 import Cart from './components/Cart/Cart';
+import ProviderTest from './components/ProviderTest/ProviderTest';
 import Shop from './components/Shop/Shop';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Controll /> */}
         <Cart />
         <Shop />
+        <ProviderTest />
     </div>
     // </Provider>
   );
