@@ -1,5 +1,6 @@
 import './App.css';
 import Cart from './components/Cart/Cart';
+import CountReducer from './components/CountByUseReducer/CountReducer';
 import ProviderTest from './components/ProviderTest/ProviderTest';
 import Shop from './components/Shop/Shop';
 
@@ -31,6 +32,7 @@ function App() {
         <Cart />
         <Shop />
         <ProviderTest />
+        <CountReducer />
     </div>
     // </Provider>
   );
