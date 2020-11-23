@@ -1,6 +1,7 @@
 import './App.css';
 import Cart from './components/Cart/Cart';
 import CountReducer from './components/CountByUseReducer/CountReducer';
+import PatientCom from './components/PatientCom/PatientCom';
 import ProviderTest from './components/ProviderTest/ProviderTest';
 import Shop from './components/Shop/Shop';
 
@@ -33,6 +34,7 @@ function App() {
         <Shop />
         <ProviderTest />
         <CountReducer />
+        <PatientCom />
     </div>
     // </Provider>
   );
